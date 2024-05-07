@@ -1,0 +1,23 @@
+// Habit for writing automated tests after coding
+onCodingCompleteWriteAutomatedTest (
+    Motivation mot, 
+    Ability abs,
+    DopaminLevel dope,
+    Code code) {
+
+    mot += dope;   
+
+    if ( (mot > SCHWEINEHUND) AND
+         (abs > REQUIRED_ABILITY)  ) {
+        
+        code += addAutomatedTest(code);
+
+        dope += celebrate();  
+    }
+    else {
+        // code stays "bad"
+        // you don't progress
+    }
+
+    return dope, code;
+}
