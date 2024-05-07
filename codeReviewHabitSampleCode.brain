@@ -1,0 +1,23 @@
+// Habit for doing a code review after writing new code.
+onCodingCompleteDoCodeReview (
+    Motivation mot, 
+    Ability abs,
+    DopaminLevel dope,
+    Code code) {
+
+    mot += dope;   
+
+    if ( (mot > Schweinehund) AND
+         (abs > REQUIRED_ABILITY)  ) {
+        
+        code = reviewCodeWithPeer(code);
+
+        dope += celebrate();  
+    }
+    else {
+        // code stays shitty
+        // you don't progress
+    }
+
+    return dope, code;
+}
