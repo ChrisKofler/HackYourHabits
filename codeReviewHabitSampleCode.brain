@@ -7,7 +7,7 @@ onCodingCompleteDoCodeReview (
 
     mot += dope;   
 
-    if ( (mot > Schweinehund) AND
+    if ( (mot > SCHWEINEHUND) AND
          (abs > REQUIRED_ABILITY)  ) {
         
         code = reviewCodeWithPeer(code);
